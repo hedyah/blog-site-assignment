@@ -58,3 +58,5 @@ while True:
         print("Invalid input, try again!")
     
 
+cursor.close()
+conn.close()
