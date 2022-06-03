@@ -53,10 +53,10 @@ while True:
     select_next = input("Would you like to exit? (yes/no):  ")
     if select_next == "yes":
         break
-    
+
     else:
         print("Invalid input, try again!")
-    
+
 
 cursor.close()
 conn.close()
